@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Degree: MyString
+  School: MyString
+  Range: MyString
+  Description: MyString
+
+two:
+  Degree: MyString
+  School: MyString
+  Range: MyString
+  Description: MyString

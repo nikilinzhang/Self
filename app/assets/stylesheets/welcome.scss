@@ -1,3 +1,146 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #ffffff;
+}
+
+div.center {
+  position: absolute;
+  height: 80%;
+  left: 10%;
+  right: 10%;
+  top: 5%;
+  background-color: #699ed5;
+}
+
+div.title {
+  font-size: 20px;
+  color: #e9e5e5;
+}
+
+div.subtitle {
+  font-size: 16px;
+  color: #e9e5e5;
+}
+
+div.content {
+  font-size: 16px;
+  color: #e9e5e5;
+  font-style: italic;
+}
+
+div.topic {
+  font-size: 90px;
+  color: #e9e5e5;
+  text-align: left;
+  color: #e9e5e5;
+}
+
+div.topic2 {
+  font-size: 40px;
+  color: #e9e5e5;
+  font-style: italic;
+  text-align: center;
+  color: #e9e5e5;
+}
+
+div.top {
+  position: absolute;
+  height: 60%;
+  left: 10%;
+  right: 10%;
+  top: 5%;
+  background-color: #699ed5;
+}
+
+div.introduction{
+  position: absolute;
+  height: 20%;
+  left: 10%;
+  right: 10%;
+  top: 67%;
+  border-style: solid;
+  border-width: thin;
+  background-color: #e9e5e5;
+  border-top-color: #e9e5e5;
+  border-left-color: #e9e5e5;
+  border-right-color: #e9e5e5;
+  border-bottom-color: #699ed5;
+}
+
+div.bottom {
+  position: absolute;
+  height: 10%;
+  left: 10%;
+  right: 10%;
+  top: 87%;
+  background-color: #e9e5e5;
+  border-style: solid;
+  border-width: thin;
+  background-color: #e9e5e5;
+  border-top-color: #699ed5;
+  border-left-color: #e9e5e5;
+  border-right-color: #e9e5e5;
+  border-bottom-color: #e9e5e5;
+}
+
+img.photo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 30%;
+  right: 70%;
+}
+
+div.profile {
+  position: absolute;
+  height: 70%;
+  width: 50%;
+  left: 40%;
+  right: 10%;
+  top: 10%;
+}
+
+div.home {
+  position: absolute;
+  height: 70%;
+  width: 50%;
+  left: 10%;
+  right: 10%;
+  top: 10%;
+
+}
+
+div.profiletext{
+  text-align: left;
+  color: #e9e5e5;
+}
+
+div.introductiontext{
+  position: absolute;
+  height: 60%;
+  width: 90%;
+  left: 5%;
+  top: 10%;
+}
+
+div.details{
+  position: absolute;
+  height: 15%;
+  width: 90%;
+  left: 5%;
+  top: 17%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
