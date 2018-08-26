@@ -11,22 +11,24 @@
         hi, i am
       </div>
       <% @users.each do |u| %>
-        <a href=<%= users_path(id: u.id) %>>
-       	  <div class="topic2">
-            <%= u.FirstName %>
-            <%= u.LastName %>
-          </div>
-        </a>
+        <div class="topic2">
+      	  <%= u.FirstName %>
+          <%= u.LastName %>
+         </div>
+         <br>
+         <div class="topic3">
+         <%= link_to '<button type="button">Find More About Me</button>'.html_safe, users_path(id: u.id)%>
+         </div>
       <% end %>
     </div>
   </div>
-  <div class="introduction">
+  <div class="introductionphoto">
     <div class="introductiontext">
     </div>
   </div>
   <div class="bottom">
     <div class="details">
-      <a href='/'><img src="/home.png" style="position: absolute; width:10%;height:100%left: 25%;right: 75%;"> </a>
+      <a href='/'><img src="/home.png" style="position: absolute; width:10%;height:100%left: 25%;right: 80%;"> </a>
     </div>
   </div>
 </body>
